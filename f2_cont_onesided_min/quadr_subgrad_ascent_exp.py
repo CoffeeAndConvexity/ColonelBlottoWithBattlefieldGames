@@ -1,11 +1,8 @@
 import gurobipy as gp
 from pathlib import Path
 import sys
-import time
-import csv
 import numpy as np
-import os
-from algorithms.subgrad_ascent_algo import project_onto_simplex
+from subgrad_ascent_algo import project_onto_simplex
 from tqdm import tqdm
 import pandas as pd
 

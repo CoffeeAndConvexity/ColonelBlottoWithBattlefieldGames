@@ -1,23 +1,5 @@
 # ColonelBlottoWithBattlefieldGames
-This repository implements a projected subgradient ascent algorithm for computing the optimal continuous soldier‐allocation strategy for the maximizing player in the one-sided, min-aggregated, two-level continuous Colonel Blotto game studied in our paper.  We demonstrate the efficiency of our approach on: (1) randomly generated battlefield utilities, and (2) security-inspired battlefield utilities drawn from real-world datasets.
+This repository implements the experiments we perform in our paper. You can find more details about each experiments in the README of the folder corresponding to it:
 
-
-# Main algorithm 
-`subgrad_ascent_algo.py`: Implements Algorithm 1 from our paper: projected subgradient ascent on the soldiers simplex. Given parameterized subgame utilities, it returns the near-optimal soldier allocation of the maximizing player.
-
-
-# Applications
-## Randomly generated battlefield utilities:
-In this experiment, the utility in every battlefield subgame is a randomly generated function of the number of soldiers that the maximizing player assigns to that battlefield. We consider affine and quadratic functions of the allocated soldiers.
-
-## Security-inspired battlefield utilities: 
-In this experiment, each battlefield features a two-player zero-sum security subgame in which Player 2 plays the defender’s role and Player 1 the attacker’s. For every battlefield, we employ a payoff matrix from *Krever, Noah, et al. GUARD: Constructing Realistic Two-Player Matrix and Security Games for Benchmarking Game-Theoretic Algorithms (2025)*, which generates datasets for realistic security-game instances.
-
-# Dependencies
-- Python 
-- `numpy`: for numerical computations. Install via:
-```
-pip install numpy
-```
-
-
+- For "F.1 Discrete two-sided with sum aggregator", check [this](./f1_disc_twosided_sum/README.md)
+- For "F.2 Continuous one-sided with min-aggregator", check [this](./f2_cont_onesided_min/README.md)

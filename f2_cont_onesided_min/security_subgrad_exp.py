@@ -3,7 +3,7 @@ from pathlib import Path
 import time
 import csv
 import numpy as np
-from algorithms.subgrad_ascent_algo import project_onto_simplex
+from subgrad_ascent_algo import project_onto_simplex
 from tqdm import tqdm
 import pandas as pd
 import pickle
