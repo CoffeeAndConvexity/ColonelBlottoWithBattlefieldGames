@@ -41,5 +41,18 @@ In this experiment, each battlefield features a two-player zero-sum security sub
 - C++
 - `numpy`: for numerical computations
 
+# Citation
+If you use this repository, please cite our paper:
+
+Afiouni, S., Cerny, J., Ling, C. K., & Kroer, C. (2025). Colonel Blotto with Battlefield Games. arXiv preprint arXiv:2511.06518.
+```
+@article{afiouni2025colonel,
+  title={Colonel Blotto with Battlefield Games},
+  author={Afiouni, Salam and Cerny, Jakub and Ling, Chun Kai and Kroer, Christian},
+  journal={arXiv preprint arXiv:2511.06518},
+  year={2025}
+}
+```
+
 Full paper with the entire appendix available on [arxiv](https://arxiv.org/abs/2511.06518).
 
