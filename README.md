@@ -44,13 +44,15 @@ In this experiment, each battlefield features a two-player zero-sum security sub
 # Citation
 If you use this repository, please cite our paper:
 
-Afiouni, S., Cerny, J., Ling, C. K., & Kroer, C. (2025). Colonel Blotto with Battlefield Games. arXiv preprint arXiv:2511.06518.
+Afiouni, S., Cerny, J., Ling, C. K., & Kroer, C. (2026). Colonel Blotto with Battlefield Games. In Proceedings of the AAAI Conference on Artificial Intelligence.
 ```
-@article{afiouni2025colonel,
-  title={Colonel Blotto with Battlefield Games},
-  author={Afiouni, Salam and Cerny, Jakub and Ling, Chun Kai and Kroer, Christian},
-  journal={arXiv preprint arXiv:2511.06518},
-  year={2025}
+@inproceedings{afiouni2026colonel,
+ author = {Salam Afiouni and Jakub Cerny and Chun Kai Ling and Christian Kroer},
+ booktitle = {AAAI},
+ date = {2026},
+ note = {},
+ title = {Colonel Blotto with Battlefield Games},
+ year = {2026}
 }
 ```
 
